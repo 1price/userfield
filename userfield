@@ -5,7 +5,7 @@ Forked from Userfield by Sirius
 
 ]]
 
-local Release = "Beta 1"
+local Release = "UserCreation V2.4"
 local NotificationDuration = 6.5
 local UserfieldFolder = "Userfield"
 local ConfigurationFolder = UserfieldFolder.."/Configurations"
