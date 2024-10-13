@@ -5,7 +5,7 @@ Forked from Userfield by Sirius
 
 ]]
 
-local Release = "UserCreation V2.4"
+local Release = "UserCreation Upgraded"
 local NotificationDuration = 6.5
 local UserfieldFolder = "Userfield"
 local ConfigurationFolder = UserfieldFolder.."/Configurations"
@@ -16,42 +16,42 @@ local UserfieldLibrary = {
     Theme = {
         Default = {
             TextFont = "Gotham",
-            TextColor = Color3.fromRGB(200, 200, 200),
+            TextColor = Color3.fromRGB(255, 255, 255),
 
-            Background = Color3.fromRGB(10, 10, 10),
-            Topbar = Color3.fromRGB(15, 15, 15),
-            Shadow = Color3.fromRGB(5, 5, 5),
+            Background = Color3.fromRGB(0, 0, 0),
+            Topbar = Color3.fromRGB(10, 10, 10),
+            Shadow = Color3.fromRGB(0, 0, 0),
 
-            NotificationBackground = Color3.fromRGB(10, 10, 10),
-            NotificationActionsBackground = Color3.fromRGB(150, 150, 150),
+            NotificationBackground = Color3.fromRGB(20, 20, 20),
+            NotificationActionsBackground = Color3.fromRGB(30, 30, 30),
 
-            TabBackground = Color3.fromRGB(30, 30, 30),
+            TabBackground = Color3.fromRGB(20, 20, 20),
             TabStroke = Color3.fromRGB(35, 35, 35),
-            TabBackgroundSelected = Color3.fromRGB(100, 100, 100),
+            TabBackgroundSelected = Color3.fromRGB(30, 30, 30),
             TabTextColor = Color3.fromRGB(200, 200, 200),
-            SelectedTabTextColor = Color3.fromRGB(20, 20, 20),
+            SelectedTabTextColor = Color3.fromRGB(255, 255, 255),
 
-            ElementBackground = Color3.fromRGB(15, 15, 15),
-            ElementBackgroundHover = Color3.fromRGB(20, 20, 20),
-            SecondaryElementBackground = Color3.fromRGB(12, 12, 12),
-            ElementStroke = Color3.fromRGB(25, 25, 25),
-            SecondaryElementStroke = Color3.fromRGB(20, 20, 20),
+            ElementBackground = Color3.fromRGB(25, 25, 25),
+            ElementBackgroundHover = Color3.fromRGB(30, 30, 30),
+            SecondaryElementBackground = Color3.fromRGB(20, 20, 20),
+            ElementStroke = Color3.fromRGB(40, 40, 40),
+            SecondaryElementStroke = Color3.fromRGB(30, 30, 30),
 
-            SliderBackground = Color3.fromRGB(20, 50, 75),
-            SliderProgress = Color3.fromRGB(20, 50, 75),
-            SliderStroke = Color3.fromRGB(25, 60, 85),
+            SliderBackground = Color3.fromRGB(30, 30, 30),
+            SliderProgress = Color3.fromRGB(60, 60, 60),
+            SliderStroke = Color3.fromRGB(50, 50, 50),
 
-            ToggleBackground = Color3.fromRGB(12, 12, 12),
-            ToggleEnabled = Color3.fromRGB(0, 80, 120),
-            ToggleDisabled = Color3.fromRGB(50, 50, 50),
-            ToggleEnabledStroke = Color3.fromRGB(0, 100, 140),
-            ToggleDisabledStroke = Color3.fromRGB(70, 70, 70),
-            ToggleEnabledOuterStroke = Color3.fromRGB(50, 50, 50),
-            ToggleDisabledOuterStroke = Color3.fromRGB(35, 35, 35),
+            ToggleBackground = Color3.fromRGB(20, 20, 20),
+            ToggleEnabled = Color3.fromRGB(0, 146, 214),
+            ToggleDisabled = Color3.fromRGB(60, 60, 60),
+            ToggleEnabledStroke = Color3.fromRGB(0, 170, 255),
+            ToggleDisabledStroke = Color3.fromRGB(80, 80, 80),
+            ToggleEnabledOuterStroke = Color3.fromRGB(40, 40, 40),
+            ToggleDisabledOuterStroke = Color3.fromRGB(30, 30, 30),
 
-            InputBackground = Color3.fromRGB(12, 12, 12),
-            InputStroke = Color3.fromRGB(30, 30, 30),
-            PlaceholderColor = Color3.fromRGB(120, 120, 120)
+            InputBackground = Color3.fromRGB(20, 20, 20),
+            InputStroke = Color3.fromRGB(40, 40, 40),
+            PlaceholderColor = Color3.fromRGB(150, 150, 150)
         },
         -- Add more themes here
     }
