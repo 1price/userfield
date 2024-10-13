@@ -19,7 +19,7 @@ local UserfieldLibrary = {
             TextColor = Color3.fromRGB(255, 255, 255),
 
             Background = Color3.fromRGB(0, 0, 0),
-            Topbar = Color3.fromRGB(10, 10, 10),
+            Topbar = Color3.fromRGB(0, 0, 0),
             Shadow = Color3.fromRGB(0, 0, 0),
 
             NotificationBackground = Color3.fromRGB(20, 20, 20),
